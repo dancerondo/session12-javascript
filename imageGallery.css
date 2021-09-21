@@ -1,0 +1,15 @@
+.slide{
+    display: none;
+}
+.imageSmall{
+    opacity: 0.5;
+}
+.active{
+    opacity: 1;
+}
+.imageSmall:hover{
+    opacity:1;
+}
+button:hover{
+    background-color: yellow;
+}

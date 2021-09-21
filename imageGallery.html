@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <link href="./imageGallery.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>  
+    <title>image gallery</title>
+</head>
+<body>
+    <div>
+     <div class="container bg-body" style="min-height: 100vh;"> 
+        <div class="row-top d-flex justify-content-center">
+            <div class="row-container ">
+                <div class="row position-relative" style="top:35vh">
+                    <div class="col-11"><button type="button" id="back"><</button></div>
+                    <div class="col-1"><button type="button" id="forward">></button></div>
+                </div>
+                <!-- signal iduna park  -->
+                <figure class="slide">
+                    <div class="position-absolute text-white">1/6</div>
+                    <img src="https://images.unsplash.com/photo-1551388749-6b3478890d58?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9ydG11bmQlMjBzdGFkaXVtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"  width="100%" height="400px">
+                    <figcaption class="fw-bold">Signal Idunapark Stadium</figcaption>
+                </figure>
+                <!-- Etihad  -->
+                <figure class="slide">
+                    <div class="position-absolute text-white">2/6</div>
+                    <img src="https://images.unsplash.com/photo-1574052018066-049076cbe1c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" width="100%" height="400px">
+                    <figcaption class="fw-bold">Olympia Stadium</figcaption>
+                </figure>
+                <!-- noucamp  -->
+                <figure class="slide">
+                    <div class="position-absolute text-white">3/6</div>
+                    <img src="https://media.istockphoto.com/photos/eixample-district-and-la-monumental-picture-id1098190568?b=1&k=20&m=1098190568&s=170667a&w=0&h=vJ0zuohCLVSPKrHmNJmBMKJf_mOxoHMB_8LHqdWP2tk=" width="100%" height="400px">
+                    <figcaption class="fw-bold">Noucamp Stadium</figcaption>
+                </figure>
+                <!-- Alianz Arena  -->
+                <figure class="slide">
+                    <div class="position-absolute text-white">4/6</div>
+                    <img src="https://images.unsplash.com/photo-1610062681711-5dc67d26a3e4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmF5ZXJuJTIwbXVuaWNoJTIwc3RhZGl1bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" width="100%" height="400px">
+                    <figcaption class="fw-bold">Alianz Arena Stadium</figcaption>
+                </figure>
+                <!-- Andfield  -->
+                <figure class="slide">
+                    <div class="position-absolute text-white">5/6</div>
+                    <img src="https://images.unsplash.com/photo-1534095199036-ba4fd1eed616?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFuZmllbGQlMjBzdGFkaXVtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" width="100%" height="400px">
+                    <figcaption class="fw-bold">Andfield Stadium</figcaption>
+                </figure>
+                <!-- park d'prince  -->
+                <figure class="slide">
+                    <div class="position-absolute text-white">6/6</div>
+                    <img src="https://images.unsplash.com/photo-1610065132656-bbb6b4bf0da1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHNnJTIwc3RhZGl1bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" width="100%" height="400px">
+                    <figcaption class="fw-bold">park d'prince stadium</figcaption>
+                </figure>
+                
+            </div>    
+        </div>
+         
+        <div class="row-bottom row">
+            <img class="col-md-2 col-sm-4 imageSmall" src="https://images.unsplash.com/photo-1551388749-6b3478890d58?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9ydG11bmQlMjBzdGFkaXVtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+            <img class="col-md-2 col-sm-4 imageSmall" src="https://images.unsplash.com/photo-1568194157720-8bbe7114ebe8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZXRpaGFkJTIwc3RhZGl1bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+            <img class="col-md-2 col-sm-4 imageSmall" src="https://media.istockphoto.com/photos/eixample-district-and-la-monumental-picture-id1098190568?b=1&k=20&m=1098190568&s=170667a&w=0&h=vJ0zuohCLVSPKrHmNJmBMKJf_mOxoHMB_8LHqdWP2tk=">
+            <img class="col-md-2 col-sm-4 imageSmall" src="https://images.unsplash.com/photo-1610062681711-5dc67d26a3e4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmF5ZXJuJTIwbXVuaWNoJTIwc3RhZGl1bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+            <img class="col-md-2 col-sm-4 imageSmall" src=https://images.unsplash.com/photo-1534095199036-ba4fd1eed616?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFuZmllbGQlMjBzdGFkaXVtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+            <img class="col-md-2 col-sm-4 imageSmall" src="https://images.unsplash.com/photo-1610065132656-bbb6b4bf0da1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHNnJTIwc3RhZGl1bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+        </div>
+        <script>
+            var indexSlide = 0;
+            var slides = document.getElementsByClassName("slide");
+            var imageSmalls = document.getElementsByClassName("imageSmall"); 
+            function showSlide(){
+                // var slides = document.getElementsByClassName("slide");
+                // var imageSmalls = document.getElementsByClassName("imageSmall"); 
+                //set display none for all image
+                for(i = 0;i < slides.length;i ++){
+                    slides[i].style.display = "none";                           
+                }
+                indexSlide ++;
+                //if indexSlide > slides.length => indexSlide = 1;
+                if(indexSlide > slides.length){
+                    indexSlide = 1;
+                }
+                //reset small images 
+                for(i = 0;i < imageSmalls.length;i ++){
+                    imageSmalls[i].className = imageSmalls[i].className.replace("active","");
+                }
+                // display current image
+                slides[indexSlide - 1].style.display = "block";
+                imageSmalls[indexSlide - 1].classList.add("active");
+            }    
+            function showBackSlide(){
+                // var slides = document.getElementsByClassName("slide");
+                // var imageSmalls = document.getElementsByClassName("imageSmall"); 
+                //set display none for all image
+                for(i = 0;i < slides.length;i ++){
+                    slides[i].style.display = "none";                           
+                }
+                indexSlide --;
+                //if indexSlide > slides.length => indexSlide = 1;
+                if(indexSlide == 0){
+                    indexSlide = slides.length ;
+                }
+                //reset small images 
+                for(i = 0;i < imageSmalls.length;i ++){
+                    imageSmalls[i].className = imageSmalls[i].className.replace("active","");
+                }
+                //display current image
+                slides[indexSlide-1].style.display = "block";
+                imageSmalls[indexSlide-1].classList.add("active");
+            }
+            var forwardButton = document.querySelector("#forward");
+            var backButton = document.querySelector("#back");
+            forwardButton.addEventListener("click",showSlide); 
+            var backButton = document.querySelector("#back");
+            backButton.addEventListener("click",showBackSlide);   
+            showSlide();
+           
+        </script>
+</div>
+
+</body>
+</html>
